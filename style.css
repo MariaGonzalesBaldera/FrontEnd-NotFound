@@ -1,0 +1,85 @@
+body{
+    background: #fff;
+    font-family: 'Inter';
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.035em;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen, .texto {
+    flex: 1 1 30%;
+  }
+.NotFound, .img-404{
+    margin-left: 3.8rem;
+    margin-top: 1rem;
+}
+.NotFound{
+    padding: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: -0.08em;
+    font-size: 1.2rem;
+}
+.img-404{
+    margin-top: 5rem;
+    width: 23rem;
+    height: 23rem;
+}
+.texto{
+    padding-left: 4rem;
+    margin-top: 5rem;
+    margin-right: 13em;
+    width: 32rem;
+}
+.txt-principal{
+    font-size: 4rem;
+    line-height: 94.78px;
+    font-weight: bold;
+    color: #4F4F4F;
+    margin-bottom: 2rem;
+}
+.txt-secundario{
+    width: 20rem;
+    color: #4F4F4F;
+    font-size: 1.5rem;
+    line-height: 35.54px;
+    margin-bottom: 2rem;
+}
+.home{
+    background: #333333;
+    font-size: 0.7rem;
+    color: #fff;
+    width: 12.5rem;
+    height: 4rem;
+    border: none;
+}
+.pie-pagina{
+    margin-top: 7rem;
+    color: #BDBDBD;
+    text-align: center;
+}
+@media (max-width:768px) {
+    .imagen, .texto{
+        flex: 1 1 80%;
+    }    
+    .NotFound, .img-404{
+        margin: 0;
+    }
+    .img-404{
+        width: 18rem;
+        height: 18rem;
+    }
+    .txt-principal{
+        font-size: 3.1rem;        
+    }
+    .txt-secundario{
+        font-size: 1.3rem;
+    }
+    .texto{
+        padding-left: 1rem;
+    }
+}
+
